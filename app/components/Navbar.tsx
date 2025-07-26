@@ -10,7 +10,7 @@ import { usePathname } from "next/navigation";
 import Themebutton from "./Themebutton";
 
 export default function Navbar() {
-  let pathname = usePathname() || "/";
+  const pathname = usePathname() || "/";
   return (
     <Disclosure as="nav">
       {({ open }) => (

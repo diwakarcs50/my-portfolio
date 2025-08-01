@@ -89,7 +89,7 @@ export default function Home() {
 
         <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2 animate-slide-in-right">
           <p className="text-lg leading-relaxed">
-            Hi, I'm Diwakar Kumar, a passionate full-stack developer with expertise in building modern, scalable web applications. I specialize in creating seamless user experiences on the frontend while architecting robust backend systems that power today's digital solutions.
+            Hi, I&apos;m Diwakar Kumar, a passionate full-stack developer with expertise in building modern, scalable web applications. I specialize in creating seamless user experiences on the frontend while architecting robust backend systems that power today&apos;s digital solutions.
           </p>
           
           <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mt-8 mb-6 flex items-center">
@@ -187,11 +187,71 @@ export default function Home() {
 
           <div className="bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900/20 dark:to-blue-900/20 p-6 rounded-lg border border-teal-200 dark:border-teal-700 animate-pulse-slow">
             <p className="text-gray-700 dark:text-gray-300 italic">
-              "Whether it's building a complete web application from scratch, integrating AI capabilities into existing systems, or optimizing performance across the full stack, I'm passionate about creating technology solutions that make a meaningful impact."
+              &ldquo;Whether it&apos;s building a complete web application from scratch, integrating AI capabilities into existing systems, or optimizing performance across the full stack, I&apos;m passionate about creating technology solutions that make a meaningful impact.&rdquo;
             </p>
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes fade-in {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        @keyframes slide-in-left {
+          from {
+            opacity: 0;
+            transform: translateX(-50px);
+          }
+          to {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+
+        @keyframes slide-in-right {
+          from {
+            opacity: 0;
+            transform: translateX(50px);
+          }
+          to {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+
+        @keyframes pulse-slow {
+          0%, 100% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.02);
+          }
+        }
+
+        .animate-fade-in {
+          animation: fade-in 0.8s ease-out;
+        }
+
+        .animate-slide-in-left {
+          animation: slide-in-left 1s ease-out;
+        }
+
+        .animate-slide-in-right {
+          animation: slide-in-right 1s ease-out 0.2s both;
+        }
+
+        .animate-pulse-slow {
+          animation: pulse-slow 3s ease-in-out infinite;
+        }
+      `}</style>
     </div>
   );
 }

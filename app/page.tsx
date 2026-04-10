@@ -132,7 +132,7 @@ export default function Home() {
             Backend & Database Expertise
           </h3>
           
-          <div className="grid grid-cols-2 gap-4 mb-6 not-prose">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-6 not-prose">
             <div className="group flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-green-50 dark:hover:bg-green-900/20 transition-all duration-300 hover:scale-105 hover:shadow-md">
               <div className="mr-3 p-2 bg-green-600 rounded-lg group-hover:rotate-12 transition-transform duration-300">
                 <svg viewBox="0 0 24 24" className="w-6 h-6 text-white">
@@ -154,6 +154,42 @@ export default function Home() {
               <div>
                 <h4 className="font-semibold text-gray-900 dark:text-gray-100">Databases</h4>
                 <p className="text-sm text-gray-600 dark:text-gray-400">SQL & NoSQL</p>
+              </div>
+            </div>
+
+            <div className="group flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-yellow-50 dark:hover:bg-yellow-900/20 transition-all duration-300 hover:scale-105 hover:shadow-md">
+              <div className="mr-3 p-2 bg-yellow-600 rounded-lg group-hover:rotate-12 transition-transform duration-300">
+                <svg viewBox="0 0 24 24" className="w-6 h-6 text-white">
+                  <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5"/>
+                </svg>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 dark:text-gray-100">Express.js</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Web Framework</p>
+              </div>
+            </div>
+
+            <div className="group flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-red-50 dark:hover:bg-red-900/20 transition-all duration-300 hover:scale-105 hover:shadow-md">
+              <div className="mr-3 p-2 bg-red-600 rounded-lg group-hover:rotate-12 transition-transform duration-300">
+                <svg viewBox="0 0 24 24" className="w-6 h-6 text-white">
+                  <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5"/>
+                </svg>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 dark:text-gray-100">NestJS</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Progressive Framework</p>
+              </div>
+            </div>
+
+            <div className="group flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-green-50 dark:hover:bg-green-900/20 transition-all duration-300 hover:scale-105 hover:shadow-md">
+              <div className="mr-3 p-2 bg-green-700 rounded-lg group-hover:rotate-12 transition-transform duration-300">
+                <svg viewBox="0 0 24 24" className="w-6 h-6 text-white">
+                  <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 dark:text-gray-100">Nginx</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Web Server</p>
               </div>
             </div>
           </div>
@@ -183,6 +219,77 @@ export default function Home() {
 
           <p className="mb-8">
             I stay at the forefront of technology by keeping up with the latest AI developments and integrating cutting-edge AI models into real-world applications. My passion lies in bridging the gap between artificial intelligence and practical business solutions, creating applications that leverage machine learning, natural language processing, and other AI technologies to solve complex problems and enhance user experiences.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mt-8 mb-6 flex items-center">
+            <span className="mr-3">☁️</span>
+            DevOps & Cloud Infrastructure
+          </h3>
+          
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-6 not-prose">
+            <div className="group flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-orange-50 dark:hover:bg-orange-900/20 transition-all duration-300 hover:scale-105 hover:shadow-md">
+              <div className="mr-3 p-2 bg-orange-600 rounded-lg group-hover:rotate-12 transition-transform duration-300">
+                <svg viewBox="0 0 24 24" className="w-6 h-6 text-white">
+                  <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5"/>
+                </svg>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 dark:text-gray-100">AWS</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Cloud Services</p>
+              </div>
+            </div>
+
+            <div className="group flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-red-50 dark:hover:bg-red-900/20 transition-all duration-300 hover:scale-105 hover:shadow-md">
+              <div className="mr-3 p-2 bg-red-600 rounded-lg group-hover:rotate-12 transition-transform duration-300">
+                <svg viewBox="0 0 24 24" className="w-6 h-6 text-white">
+                  <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5"/>
+                </svg>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 dark:text-gray-100">OpenStack</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Open Cloud Platform</p>
+              </div>
+            </div>
+
+            <div className="group flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all duration-300 hover:scale-105 hover:shadow-md">
+              <div className="mr-3 p-2 bg-blue-600 rounded-lg group-hover:rotate-12 transition-transform duration-300">
+                <svg viewBox="0 0 24 24" className="w-6 h-6 text-white">
+                  <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5"/>
+                </svg>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 dark:text-gray-100">Docker</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Containerization</p>
+              </div>
+            </div>
+
+            <div className="group flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all duration-300 hover:scale-105 hover:shadow-md">
+              <div className="mr-3 p-2 bg-blue-700 rounded-lg group-hover:rotate-12 transition-transform duration-300">
+                <svg viewBox="0 0 24 24" className="w-6 h-6 text-white">
+                  <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5"/>
+                </svg>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 dark:text-gray-100">Kubernetes</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Orchestration</p>
+              </div>
+            </div>
+
+            <div className="group flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-all duration-300 hover:scale-105 hover:shadow-md">
+              <div className="mr-3 p-2 bg-purple-600 rounded-lg group-hover:rotate-12 transition-transform duration-300">
+                <svg viewBox="0 0 24 24" className="w-6 h-6 text-white">
+                  <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5"/>
+                </svg>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 dark:text-gray-100">CI/CD</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Automation & Deployment</p>
+              </div>
+            </div>
+          </div>
+
+          <p className="mb-8">
+            I design and implement robust DevOps solutions that streamline development workflows and ensure reliable deployments. With experience in AWS cloud services and OpenStack infrastructure, I build scalable solutions using containerization with Docker and orchestration with Kubernetes, while maintaining automated CI/CD pipelines for continuous integration and delivery.
           </p>
 
           <div className="bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900/20 dark:to-blue-900/20 p-6 rounded-lg border border-teal-200 dark:border-teal-700 animate-pulse-slow">

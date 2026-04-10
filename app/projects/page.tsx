@@ -49,7 +49,7 @@ export default async function Projects(){
                             </h3>
                         </a>
 
-                        <p className="mt-2 text-sm leading-relaxed line-clamp-3 text-gray-500 dark:text-gray-400">
+                        <p className="mt-2 text-sm leading-relaxed line-clamp-2 text-gray-500 dark:text-gray-400">
                             {project.overview}
                         </p>
 

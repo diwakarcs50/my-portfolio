@@ -9,7 +9,7 @@ export async function submitForm(formData:FormData){
    await prisma.guestbook.create({
     data:{
        message:formData.get('entry') as string,
-       username:"hello",
+       username:"Diwakar"
     }
    })
 
